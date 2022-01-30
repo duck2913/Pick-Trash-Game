@@ -91,5 +91,4 @@ const showGameScreen = function (imgSrc) {
 
 window.addEventListener('load', function () {
     screen[0].style.marginTop = '0';
-    screen[1].style.marginTop = '0';
 });
