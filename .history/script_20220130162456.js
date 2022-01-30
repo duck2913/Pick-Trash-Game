@@ -48,7 +48,7 @@ const loadTrash = function (imgSrc) {
         () => {
             loadTrash(imgSrc);
         },
-        1000 - score * 50 > 0 ? 1000 - score * 30 : 200,
+        1000 - score * 50 > 0 ? 1000 - score * 50 : 200,
     );
 };
 
@@ -56,7 +56,7 @@ const showMessage = function () {
     const message = document.createElement('div');
     message.classList.add('message');
     message.innerHTML = `
-            <p>What a noob!</p>
+            <p>Bé XIU giỏi quá ❤️</p>
     `;
     gameScreen.appendChild(message);
     console.log('append message');
