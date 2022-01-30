@@ -65,7 +65,7 @@ const showMessage = function () {
 const updateScore = function () {
     score++;
     scroreEl.innerText = `Score: ${score}`;
-    if (score === 30) {
+    if (score === 20) {
         showMessage();
     }
 };
@@ -91,5 +91,5 @@ const showGameScreen = function (imgSrc) {
 
 window.addEventListener('load', function () {
     screen[0].style.marginTop = '1px';
-    screen[1].style.marginTop = '1px';
+    screen[1].style.marginTop = '0vh';
 });

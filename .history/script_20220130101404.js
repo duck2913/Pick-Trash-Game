@@ -65,7 +65,7 @@ const showMessage = function () {
 const updateScore = function () {
     score++;
     scroreEl.innerText = `Score: ${score}`;
-    if (score === 30) {
+    if (score === 20) {
         showMessage();
     }
 };
